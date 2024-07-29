@@ -1,0 +1,31 @@
+
+/* Hero section */
+.hero-section {
+  width: 100%;
+  height: auto;
+  background-image: url("/assets/gokundu_home/hero_section.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-right {
+  width: 50%;
+}
+
+.hero-right .hero-main-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero_btn{
+  border-radius: 8px;
+background: #FBCC21;
+box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.input_tag{
+  border-radius: 100px;
+  border: 2px solid #C6C8CB;
+  background: rgba(133, 172, 251, 0.50);
+}

@@ -1,0 +1,12 @@
+.footer__bg{
+  background-image: url("/assets/footer/Footer.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.footer_bottom_bg{
+  background: linear-gradient(90deg, #354D1D 0%, #7BB344 100%);
+}

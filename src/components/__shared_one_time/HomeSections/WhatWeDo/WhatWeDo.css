@@ -1,0 +1,20 @@
+.bg_style{
+    border-radius: 16px;
+    border: 1px solid #9F9F9F;
+    background: #F7FFEF;
+}
+
+.image:hover {
+    filter: invert(100%) brightness(200%);
+}
+
+/* .cart:hover, .content:hover {
+    background-color: #7BB344;
+    color: white;
+}  */
+
+
+/* .image:hover {
+    filter: invert(98%) sepia(79%) saturate(2476%) hue-rotate(330deg)
+      brightness(95%) contrast(95%);
+} */
