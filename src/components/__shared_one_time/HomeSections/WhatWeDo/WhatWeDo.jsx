@@ -14,7 +14,7 @@ const whatWeDoData = [
   },
   {
     id: 2,
-    img: "/assets/what_we_do/wwd2.png",
+    img: "/assets/what_we_do/wwd2.svg",
     title: "Custom Web Applications",
     desc: "Custom web applications are tailored software solutions designed to meet the specific needs of a business or individual.",
   },
@@ -59,7 +59,7 @@ const WhatWeDo = () => {
             return (
               <div
                 key={data.id}
-                className="group bg_style py-[43px] hover:bg-primary"
+                className="group bg_style py-[43px] hover:bg-primary hover:cursor-pointer"
               >
                 <Image
                   src={data.img}

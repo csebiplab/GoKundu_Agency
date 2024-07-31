@@ -85,11 +85,11 @@ const Approach = () => {
       <div className="!overflow-hidden padding__top">
         <div className="">
           <div className="container">
-            <div className="flex flex-col items-start justify-center">
+            <div className="flex flex-col items-center md:items-start justify-center">
               <div className="flex justify-center lg:justify-normal items-center">
                 <HeadingIcon text={headingIconText.approach__headingIconText}/>
               </div>
-              <h3 className="text-[28px] md:text-3xl lg:text-[32px] xl:text-[34px] 2xl:text-4xl 3xl:text-[38px] 4xl:text-[40px] 5xl:text-[42px]  leading-[35px] font-bold text-black text-left pb-[25px]">
+              <h3 className="text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] leading-normal font-bold text-black text-center md:text-left pb-[25px]">
               Go Kundu <span className="text-primary">Approach to Client</span>
               </h3>
             </div>

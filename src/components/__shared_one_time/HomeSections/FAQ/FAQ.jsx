@@ -61,7 +61,7 @@ const FAQ = () => {
     <div className="homeSection__bg">
       <div className="container padding__top">
         <div className=" grid md:grid-cols-6 grid-cols-1 md:gap-[30px]">
-          <div className="order-2 md:col-span-3 flex items-center ">
+          <div className="order-1 md:order-2 md:col-span-3 flex items-center ">
             <div className="">
               <Image
                 src="/assets/gokundu_home/FAQ.png"
@@ -73,15 +73,15 @@ const FAQ = () => {
             </div>
           </div>
 
-          <div className="order-1 md:col-span-3 pt-3 md:pt-0">
-            <div className="flex flex-col justify-center items-center md:items-start">
+          <div className="order-2 md:order-1 md:col-span-3 pt-3 md:pt-0">
+            <div className="flex flex-col justify-center items-start">
               <div>
               <HeadingIcon text={headingIconText.faq__headingIconText}/>
               </div>
 
               <div>
-                <h3 className="text-3xl lg:text-[32px] xl:text-[34px] 2xl:text-4xl 3xl:text-[38px] 4xl:text-[40px] 5xl:text-[42px] leading-normal font-bold text-black md:text-start text-center pb-2">
-                Frequently Asked Questions At <br /> <span className="text-primary">Go Kundu</span>
+                <h3 className="text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] leading-normal font-bold text-black text-start pb-2">
+                Frequently Asked Questions At  <span className="text-primary">Go Kundu</span>
                 
                 </h3>
               </div>
@@ -119,7 +119,7 @@ const FAQ = () => {
                       </svg>
                     </div>
                   </AccordionHeader>
-                  <AccordionBody className="px-3 py-1 text-base font-normal bg-white text-black">
+                  <AccordionBody className="px-3 py-1 text-base font-normal bg-white text-black border border-primary">
                     {answer}
                   </AccordionBody>
                 </Accordion>

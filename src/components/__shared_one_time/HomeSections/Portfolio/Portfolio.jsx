@@ -149,7 +149,7 @@ const Portfolio = () => {
       <div className="container padding__top">
         <div className="flex flex-col items-center">
           <HeadingIcon text={headingIconText.portfolio__headingIconText} />
-          <h3 className="text-center text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold text-secondary pt-[5px]">
+          <h3 className="text-center text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold text-secondary pt-[5px] leading-normal">
             At Go Kundu <span className="text-primary">Our Latest Work</span>
           </h3>
         </div>
@@ -159,7 +159,7 @@ const Portfolio = () => {
               return (
                 <div
                   key={data.id}
-                  className="group hover:bg-primary border-b-[6px] border-primary py-[25px] px-[6px]" onClick={()=>setData(data.title)}
+                  className="group hover:bg-primary hover:cursor-pointer border-b-[6px] border-primary py-[25px] px-[6px]" onClick={()=>setData(data.title)}
                 >
                   <Image
                     src={data.img}

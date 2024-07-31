@@ -13,7 +13,7 @@ import "./Brand.css";
 
 const breakpoints = {
   0: {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 20,
   },
   768: {

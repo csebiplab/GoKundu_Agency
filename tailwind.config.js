@@ -83,6 +83,9 @@ module.exports = withMT({
                 ...theme('colors'),
                 'foreground': 'var(--foreground)',
             }),
+            boxShadow: {
+                'custom': '0px 0px 6px 0px rgba(0, 0, 0, 0.50)',
+              },
         },
     },
     plugins: [

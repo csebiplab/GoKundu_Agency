@@ -7,7 +7,7 @@ const aboutUsdata1 = [
   {
     id: 1,
     img: "/assets/gokundu_home/about1.png",
-    number: 150,
+    number: "150",
     desc: "We Have Completed",
   },
   {
@@ -114,7 +114,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[50px] pt-[45px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[50px] pt-[45px] pr-[40px] md:pr-0 ">
           {aboutUsdata2.map((data) => (
             <div key={data.id}>
               <Image

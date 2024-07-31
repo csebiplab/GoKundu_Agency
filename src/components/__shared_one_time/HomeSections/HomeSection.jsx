@@ -1,7 +1,6 @@
 import React from 'react';
 import "./HomeSection.css"
 import HomeBanner from './HomeBanner/HomeBanner';
-import GiveUsFeedbackSection from './GiveUsFeedbackSection';
 import ReadyToWork from './ReadyToWork/ReadyToWork';
 import FAQ from './FAQ/FAQ';
 import WhereWeWork from './WhereWeWork/WhereWeWork';
@@ -12,6 +11,7 @@ import Portfolio from './Portfolio/Portfolio';
 import SeoBaseWorkingProcess from './SeoBaseWorkingProcess/SeoBaseWorkingProcess';
 import ClientStories from './ClientStories/ClientStories';
 import Brand from './Brand/Brand';
+import ContactUs from './ContactUs/ContactUs';
 
 const HomeSection = () => {
     return (
@@ -62,7 +62,7 @@ const HomeSection = () => {
             </section>
 
             <section>
-                <GiveUsFeedbackSection/>
+                <ContactUs/>
             </section>
             
         </div>

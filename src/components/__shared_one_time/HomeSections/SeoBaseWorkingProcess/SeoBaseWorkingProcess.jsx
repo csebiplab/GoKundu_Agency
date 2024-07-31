@@ -46,7 +46,7 @@ const SeoBaseWorkingProcess = () => {
             <div className='container padding__top'>
                 <div className="flex flex-col items-center">
                     <HeadingIcon text={headingIconText.seoBasedWorkingProcess__headingIconText}/>
-                    <h3 className='text-center text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold text-secondary pt-[5px]'>Go Kundu's Proven <span className='text-primary'>SEO Process for Success</span></h3>
+                    <h3 className='text-center text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold text-secondary pt-[5px] leading-normal'>Go Kundu's Proven <span className='text-primary'>SEO Process for Success</span></h3>
                     <p className='text-center text-lg font-normal text-secondary pt-[10px] md:pt-[15px] lg:pt-[17px] xl:pt-[20px] 5xl:pt-[25px]'>At Go Kundu, our proven SEO process is tailored to drive your business's success. We start with a comprehensive site audit, followed by extensive keyword research and on-page optimization to enhance your online visibility. Our technical experts address key performance issues, while our content strategy and ethical link-building practices establish your authority and drive relevant traffic. We continuously monitor performance and provide regular reports, ensuring sustained growth and maximum ROI.</p>
                 </div>
 

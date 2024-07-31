@@ -89,8 +89,8 @@ const Footer = () => {
         </div>
       </div>
       {/* footer bootom  */}
-      <div className="footer_bottom_bg">
-      <div className="container flex items-center justify-between text-white">
+      <div className="">
+      <div className="container footer_bottom_bg flex items-center justify-between text-white">
         <p className="flex items-center gap-3">WEBSITE DESIGN AND SEO BY :- <Image src="/assets/footer/footer_bottom_logo_icon.png" alt="footer bottom logo icon" width={141} height={36}/></p>
         <p>© All Copyright 2024 by GO KUNDU</p>
         <p>Terms & Condition <span className="pl-10">Privacy Policy</span></p>
