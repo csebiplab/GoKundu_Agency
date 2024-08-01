@@ -101,7 +101,7 @@ const AboutUs = () => {
                     />
                     <div className="pb-[25px]">
                       <h5 className="text-primary text-[42px] font-extrabold pb-[9px]">
-                        {data.number}
+                        {data.number} {data.number==="150" && <span className="text-[25px] font-normal">Project</span>}
                       </h5>
                       <p className="text-[#3F444B] text-[15px] font-medium pb-[20px]">
                         {data.desc}

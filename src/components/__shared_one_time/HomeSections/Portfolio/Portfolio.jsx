@@ -153,22 +153,22 @@ const Portfolio = () => {
             At Go Kundu <span className="text-primary">Our Latest Work</span>
           </h3>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-5 pt-[25px]">
-          <div className="md:col-span-1 border-[6px] rounded-l-[16px] border-primary">
+        <div className="grid grid-cols-5 md:grid-cols-5 pt-[25px]">
+          <div className=" col-span-2 md:col-span-1 border-x-[6px] border-y-[3px] rounded-l-[16px] border-primary">
             {portfolioData.map((data) => {
               return (
                 <div
                   key={data.id}
-                  className="group hover:bg-primary hover:cursor-pointer border-b-[6px] border-primary py-[25px] px-[6px]" onClick={()=>setData(data.title)}
+                  className={`group hover:bg-primary hover:cursor-pointer border-y-[3px] border-primary  py-[10px] 3xl:py-[20px] 5xl:py-[27px] px-[3px] md:px-[4px] xl:px-[5px] 5xl:px-[6px]`} onClick={()=>setData(data.title)}
                 >
                   <Image
                     src={data.img}
                     alt="portfolio image"
                     width={89}
                     height={89}
-                    className="w-[89] h-[89] mx-auto group-hover:filter group-hover:brightness-0 group-hover:invert"
+                    className="w-[25] lg:w-[60] xl:w-[70] 3xl:w-[80] 5xl:w-[89] h-[25] lg:h-[60] xl:h-[70] 3xl:h-[80]  5xl:h-[89] mx-auto group-hover:filter group-hover:brightness-0 group-hover:invert"
                   />
-                  <h5 className="group-hover:text-white text-center text-primary text-[25px]">
+                  <h5 className="group-hover:text-white text-center text-primary text-base xl:text-[20px] 5xl:text-[25px] font-bold">
                     {data.title}
                   </h5>
                 </div>
@@ -176,17 +176,18 @@ const Portfolio = () => {
             })}
           </div>
 
-          <div className="md:col-span-4 border-[6px] rounded-r-[16px] border-primary px-[34px] py-[63px]">
-            <div className="grid grid-cols-2 gap-[27px]">
+          <div className="col-span-3 md:col-span-4 border-y-[6px] border-r-[6px] rounded-r-[16px] border-primary px-[34px] py:py-[40px] xl:py-[45px] 3xl:py-[55px] 5xl:py-[63px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-[15px] md:gap-[27px]">
             
               {portfolioFilterData.map((data, index) => {
                 return (
-                  <div key={index} className="">
+                  <div key={index} className="py-[27px] md:py-0">
                     <Image
                       src={data.img}
-                      alt="ui/ux image"
+                      alt="portfolio image"
                       width={480}
                       height={296}
+                      className=""
                     />
                   </div>
                 );
@@ -194,8 +195,8 @@ const Portfolio = () => {
 
               
             </div>
-            <div className="w-full flex justify-center pt-[55px]">
-                <button className="portfolio_btn text-base text-white font-normal flex items-center justify-center gap-[10px] py-[7px] px-[23px]">
+            <div className="w-full flex justify-center pt-[20px] md:pt-[55px]">
+                <button className="portfolio_btn text-sm md:text-base text-white font-normal flex items-center justify-center gap-[4px] md:gap-[10px] py-3 md:py-[7px] px-4 md:px-[23px]">
                   See More{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

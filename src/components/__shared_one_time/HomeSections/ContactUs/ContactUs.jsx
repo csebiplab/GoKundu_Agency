@@ -28,7 +28,7 @@ const ContactUs = () => {
                   />
                 </div>
               </div>
-              <div className="md:col-span-2 ml-[40px] mr-[40px] md:mr-0 md:-ml-[200px] -mt-[100px] flex items-center">
+              <div className="md:col-span-2 ml-[23px] mr-[40px] md:mr-0 md:-ml-[200px] -mt-[100px] flex items-center">
                 <div className="contactUs_cart_bg py-[43px] px-[26px]">
                   <h5 className="text-[34px] md:text-[36px] lg:text-[37px] xl:text-[38px] 2xl:text-[39px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold text-center pb-[17px]">
                     Contact Us
@@ -40,7 +40,12 @@ const ContactUs = () => {
                       width={30}
                       height={30}
                     />
-                    13809 Hollow Canyon Lane Rosharon, TX 77583
+                    <a
+                      href="location:13809 Hollow Canyon Lane Rosharon, TX 77583"
+                      className="text-white"
+                    >
+                      13809 Hollow Canyon Lane Rosharon, TX 77583
+                    </a>
                   </p>
                   <p className="flex items-center gap-[15px] text-lg xl:text-[20px] font-normal py-[22px]">
                     <Image
@@ -49,7 +54,10 @@ const ContactUs = () => {
                       width={30}
                       height={30}
                     />
-                    +88 01764898569
+
+                    <a href="tel:+1 (405) 586-4112" className="text-white">
+                    +1 (405) 586-4112
+                    </a>
                   </p>
                   <p className="flex items-center gap-[15px] text-lg xl:text-[20px] font-normal">
                     <Image
@@ -58,7 +66,9 @@ const ContactUs = () => {
                       width={30}
                       height={30}
                     />
-                    gokundu.com@gmail.com
+                    <a href="mail:gokundu.com@gmail.com" className="text-white">
+                      gokundu.com@gmail.com
+                    </a>
                   </p>
 
                   <div className="flex items-center gap-[50px] pt-[29px] pb-[25px]">
@@ -143,7 +153,7 @@ const ContactUs = () => {
                         <input
                           className="w-full input_bg py-[13px] pl-[16px] placeholder:text-white placeholder:font-normal"
                           type="number"
-                          placeholder="+88 01764912536"
+                          placeholder="+1 (405) 586-4112"
                         />
                       </div>
                     </div>

@@ -22,7 +22,7 @@ const HomeBanner = () => {
                 focused on user experience, mobile, social, data gathering and
                 analytics apart from providing services.
               </p>
-              <div className="relative flex w-[350px] md:w-[500px] 2xl:w-[600px] 5xl:w-[700px]">
+              <div className="relative flex w-[330px] md:w-[450px] 2xl:w-[600px] 5xl:w-[700px]">
                 <Input
                   type="email"
                   label="Enter your Email Address"

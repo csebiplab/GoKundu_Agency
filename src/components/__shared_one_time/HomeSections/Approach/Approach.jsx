@@ -20,19 +20,19 @@ import { headingIconText } from "@/utils/heading-text";
 const breakpoints = {
   0: {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 40,
   },
   640: {
     slidesPerView: 1,
-    spaceBetween: 20,
+    spaceBetween: 40,
   },
   767: {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 20,
   },
   1024: {
-    slidesPerView: 3,
-    spaceBetween: 20,
+    slidesPerView: 2,
+    spaceBetween: 40,
   },
   1280: {
     slidesPerView: 3,
@@ -43,7 +43,7 @@ const breakpoints = {
     spaceBetween: 20,
   },
   1536: {
-    slidesPerView: 4,
+    slidesPerView: 3,
     spaceBetween: 20,
   },
   1736: {

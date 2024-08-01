@@ -23,10 +23,10 @@ const ReadyToWork = () => {
                     <span className='text-primary'> Start Conversation To Go Kundu Your Business</span> </h3>
                     <p className="text-secondary text-lg font-normal text-center md:text-left pb-[25px]">You're just one step away from transforming your business. Start a conversation with Kundu today and unlock new opportunities for growth and success. Our expert team is ready to provide you with personalized solutions, innovative strategies, and the support you need to elevate your business to new heights. Don't wait—take that crucial step towards a brighter future now!</p>
                     <div className='w-full flex flex-col items-center md:items-start'>
-                    <a href='tel:01764-856958'>
+                    <a href='tel:+1 (405) 586-4112'>
                         <button className="readyToWorkBtn text-base font-normal text-white py-[11px] px-[28px]">Get Your Free Estimated</button>
                     </a>
-                    <h5 className="text-[30px] font-semibold text-secondary pt-[20px]">or Call Us:<a href='tel:01764-856958'>  <span className='text-primary font-bold'>01764-856958 </span></a></h5>
+                    <h5 className="text-[22px] md:text-[30px] font-semibold text-secondary pt-[20px]">or Call Us:<a href='tel:+1 (405) 586-4112'>  <span className='text-primary font-bold'>+1 (405) 586-4112 </span></a></h5>
                     </div>
                     
                 </div>

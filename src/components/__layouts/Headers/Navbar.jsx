@@ -234,7 +234,7 @@ export function NavbarHeader() {
                       </div>
                     </div>
                     <div>
-                      <a href="tel:01764-856958">
+                      <a href="tel:+1 (405) 586-4112">
                         <button className="nav__btn flex items-center gap-[5px] text-base font-normal text-white py-[7px] px-[12px]">
                           <Image
                             src="/assets/gokundu_home/p.png"
@@ -243,7 +243,7 @@ export function NavbarHeader() {
                             alt="phone icon"
                             className="w-[17px] h-[17px]"
                           />
-                          01764-856958
+                          +1 (405) 586-4112
                         </button>
                       </a>
                     </div>
@@ -256,7 +256,7 @@ export function NavbarHeader() {
                       <NavList />
                     </div>
                     <div className="mt-1">
-                      <a href="tel:01764-856958">
+                      <a href="tel:+1 (405) 586-4112">
                         <button className="nav__btn flex items-center gap-[5px] text-base font-normal text-white py-[7px] px-[12px]">
                           Get a Quotes{" "}
                           <svg
@@ -298,7 +298,7 @@ export function NavbarHeader() {
           </div>
           <div className="flex justify-around items-center bg-white py-2">
             <div>
-              <a href="tel:01764-856958">
+              <a href="tel:+1 (405) 586-4112">
                 <button className="nav__btn flex items-center gap-[5px] text-base font-normal text-white py-[7px] px-[12px]">
                   <Image
                     src="/assets/gokundu_home/p.png"
@@ -307,13 +307,13 @@ export function NavbarHeader() {
                     alt="phone icon"
                     className="w-[17px] h-[17px]"
                   />
-                  01764-856958
+                  +1 (405) 586-4112
                 </button>
               </a>
             </div>
 
             <div className="">
-              <a href="tel:01764-856958">
+              <a href="tel:+1 (405) 586-4112">
                 <button className="nav__btn flex items-center gap-[5px] text-base font-normal text-white py-[7px] px-[12px]">
                   Get a Quotes{" "}
                   <svg
